@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+  </head>
+  <body>
+        <h1>List1</h1>
+        <ul style="list-style: none;" id="list1"></ul>
+        <h1>List2</h1>
+        <ul style="list-style: none;" id="list2"></ul>
+        <h1>List3</h1>
+        <ul style="list-style: none;" id="list3"></ul>
+        <h1>List4</h1>
+        <ul style="list-style: none;" id="list4"></ul>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="twitter_list1.js"></script>
+    <script type="text/javascript" src="twitter_list2.js"></script>
+    <script type="text/javascript" src="twitter_list3.js"></script>
+    <script type="text/javascript" src="twitter_list4.js"></script>
+    <script>
+        $(document).ready(function() {
+            
+            // var listlist1 = []
+            // list1.users.map(e => {
+            //     listlist1.push(e.screen_name);
+            //     $('#list1').append('<li>'+e.name+'</li>')
+            // })
+            // var listlist2 = []
+            // list2.users.map(e => {
+            //     listlist2.push(e.screen_name);
+            //     $('#list2').append('<li>'+e.name+'</li>')
+            // })
+            // var listlist3 = []
+            // list3.users.map(e => {
+            //     listlist3.push(e.screen_name);
+            //     $('#list3').append('<li>@'+e.screen_name+'</li>')
+            // })
+            var listlist4 = []
+            list4.users.map(e => {
+                listlist4.push(e.screen_name);
+                $('#list4').append('<li>'+e.name+'</li>')
+            })
+            
+        })
+    </script>
+  </body>
+</html>
